@@ -37,15 +37,16 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
-.submenu {
+.menu {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     justify-items: center ;
 }
 
-.submenu li {
+.menu li {
     padding: 20px;
 }
 
@@ -428,11 +429,6 @@ max-width: 100%;
 /* Index */
 
 @media only screen and (max-width: 576px) {
-
-    header {
-        grid-template-columns: 1fr;
-        justify-items: center;    
-    }
 
     .hero {
         justify-content: end;
