@@ -431,7 +431,22 @@ max-width: 100%;
 @media only screen and (max-width: 576px) {
 
     .hero {
-        justify-content: end;
+        justify-content: center;
+        align-items: flex-end;
+        background-image: linear-gradient(
+            0deg,
+            rgb(0, 0, 0, 0.3),
+            rgb(0, 0, 0, 0.3)
+        )
+        ,url(../img/img-17.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;       
+    }
+    .hero h1 {
+        text-align: center;
+        color: whitesmoke;
+        padding: 0;
     }
 
     .promesa {

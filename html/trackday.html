@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../img/icono.png">
 </head>
@@ -36,18 +37,18 @@
         </nav>
     </header>
 
-    <div class="heroTrackDay" id="container">
+    <div data-aos="zoom-in-down" class="heroTrackDay" id="container">
         <h1>Track Days</h1>
     </div>
 
     <div class="beneficiosTrackDay" id="container">
         <h2>Promesa de nuestra empresa</h2>
-        <img src="../img/img-18.jpg" alt="imagen de auto deportivo por la carretera">
+        <img data-aos="zoom-out-down" src="../img/img-18.jpg" alt="imagen de auto deportivo por la carretera">
     </div>
 
     <div class="diferencialTrackDay" id="container">
         <img src="../img/img-9.jpg" alt="Imagen de habitáculo de auto particular">
-        <div>
+        <div data-aos="zoom-out-left">
             <h2>Por que elegirnos</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit nulla nemo nam accusantium dolorum, fuga quam, a perferendis, itaque est totam enim adipisci explicabo dignissimos. Deleniti qui quos modi amet aut. Beatae optio corporis tempora sunt totam exercitationem debitis provident eos odit atque culpa assumenda harum nulla aliquid perspiciatis dolore molestiae, incidunt consequuntur eveniet architecto voluptate dolorum quam. Est dignissimos velit similique commodi. Hic dolor nemo animi suscipit pariatur, consequatur, numquam maxime laborum consectetur accusamus esse? Iusto ex numquam harum.</p>
         </div>
@@ -57,7 +58,7 @@
         <h2>Llevá la tecnología de la F1 a tus manos</h2>
         <div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, rem totam? Voluptate vero nemo dolores error veritatis qui necessitatibus corporis quaerat tempora optio, architecto aliquid obcaecati quibusdam pariatur culpa ipsa incidunt, voluptatem quas consequatur consectetur iste totam rerum aspernatur temporibus. Animi itaque deleniti facere labore voluptatem alias, maxime dolores at?</p>
-            <img src="../img/img-16.jpg" alt="imagen de auto de formula uno">
+            <img data-aos="zoom-out" src="../img/img-16.jpg" alt="imagen de auto de formula uno">
         </div>
     </div>
 
@@ -88,5 +89,9 @@
             </ul>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

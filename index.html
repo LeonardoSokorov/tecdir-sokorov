@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="img/icono.png">
 </head>
@@ -37,12 +38,12 @@
         </nav>
     </header>
 
-    <div class="hero" id="container">
+    <div class="hero" data-aos="zoom-in-down" id="container">
         <h1>Propuesta de valor</h1>
     </div>
 
     <div class="promesa" id="container">
-        <img src="img/img-4.jpg" alt="auto de calle en la pista diversión">
+        <img data-aos="zoom-in-right" src="img/img-4.jpg" alt="auto de calle en la pista diversión">
         <div>
             <h2>Promesa de nuestra empresa</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium eligendi illo libero reprehenderit quo dolore excepturi cum repudiandae animi eaque quos commodi, eius veritatis iusto voluptatem fugit aspernatur voluptates ullam.</p>
@@ -51,11 +52,11 @@
     
     <div class="imagenBeneficios" id="container">
         <h2>Acá va un subtítulo</h2>
-        <img src="img/img-6.jpg" alt="Acá va la descripcion alt">
+        <img data-aos="zoom-in-down" src="img/img-6.jpg" alt="Acá va la descripcion alt">
     </div>    
     
     <div class="nuestrosProductos" id="container">
-        <img src="./img/img-27.jpg" alt="Imagen de una de las personas del equipo trabajando en desarrollo de nuestros productos">
+        <img data-aos="zoom-in-right" src="./img/img-27.jpg" alt="Imagen de una de las personas del equipo trabajando en desarrollo de nuestros productos">
         <div>
             <h2>Nuestros nuestrosProductos</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam vel aliquam doloremque ex amet dolor nostrum maiores aspernatur odio, consequatur molestiae consectetur, accusantium quia est neque odit nobis. Repellendus, sunt, qui quibusdam libero officiis tempore in eligendi recusandae eaque provident, accusamus enim. Earum repellat accusantium, necessitatibus in illo iusto iste.</p>
@@ -66,15 +67,15 @@
         <ul>
             <li>
                 <h2>Formula</h2>
-                <img src="img/img-20.jpg" alt="Primera plana auto formula">
+                <img data-aos="zoom-out-down" src="img/img-20.jpg" alt="Primera plana auto formula">
             </li>
             <li>
                 <h2>Drift</h2>
-                <img src="img/img-19.jpg" alt="Primer plano auto de drift">
+                <img data-aos="zoom-out-down" src="img/img-19.jpg" alt="Primer plano auto de drift">
             </li>
             <li>
                 <h2>Track day</h2>
-                <img src="img/img-18.jpg" alt="Primer plano auto en track day">
+                <img data-aos="zoom-out-down" src="img/img-18.jpg" alt="Primer plano auto en track day">
             </li>
         </ul>
     </div>
@@ -132,5 +133,9 @@
             </ul>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

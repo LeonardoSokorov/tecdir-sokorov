@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <link rel="icon" href="../img/icono.png">
 </head>
@@ -36,17 +37,17 @@
         </nav>
     </header>
 
-    <div class="heroDrift" id="container">
+    <div data-aos="zoom-in-down" class="heroDrift" id="container">
         <h1>Mundial de Drift</h1>
     </div>
 
     <div class="campeonatoDrift" id="container">
         <h2>Campeonato 2022 dominado por nuestros pilotos</h2>
-        <img src="../img/img-23.jpg" alt="autos de drift durante una competencia">
+        <img  data-aos="zoom-in-down" src="../img/img-23.jpg" alt="autos de drift durante una competencia">
     </div>
 
     <div class="recomendacionDrift" id="container">
-        <img src="../img/img-22.jpg" alt="Imagen de piloto de f1 que recomienda nuestro producto">
+        <img  data-aos="zoom-in-right" src="../img/img-22.jpg" alt="Imagen de piloto de f1 que recomienda nuestro producto">
         <div>
             <h2>X recomienda el producto 2022</h2>
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit nulla nemo nam accusantium dolorum, fuga quam., a perferendis, itaque est totam enim adipisci explicabo dignissimos. Deleniti qui quos modi amet aut. Beatae optio corporis tempora sunt totam exercitationem debitis provident eos odit atque culpa assumenda harum nulla aliquid perspiciatis dolore molestiae, incidunt consequuntur eveniet architecto voluptate dolorum quam. Est dignissimos velit similique commodi. Hic dolor nemo animi suscipit pariatur, consequatur, numquam maxime laborum consectetur accusamus esse? Iusto ex numquam harum.</p>
@@ -58,7 +59,7 @@
             <h2>Cuando la tecnología y la pasión van de la mano</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, rem totam? Voluptate vero nemo dolores error veritatis qui necessitatibus corporis quaerat tempora optio, architecto aliquid obcaecati quibusdam pariatur culpa ipsa incidunt, voluptatem quas consequatur consectetur iste totam rerum aspernatur temporibus. Animi itaque deleniti facere labore voluptatem alias, maxime dolores at?</p>
         </div>
-         <img src="../img/img-24.jpg" alt="imagen de auto haciendo derrapes de exibición en una competencia">
+         <img  data-aos="zoom-in-left" src="../img/img-24.jpg" alt="imagen de auto haciendo derrapes de exibición en una competencia">
     </div>
 
     <div class="footer" id="container">
@@ -88,5 +89,9 @@
             </ul>
         </footer>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
