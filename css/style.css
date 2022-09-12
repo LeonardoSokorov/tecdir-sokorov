@@ -702,3 +702,15 @@ max-width: 100%;
     );
     padding: 20px;
 }
+
+.texto-de-prueba-1 {
+    background-color: #FFBE0B;
+}
+
+.texto-de-prueba-2 {
+    background-color: #166e6e;
+}
+
+.texto-de-prueba-3 {
+    background-color: #9b7ac0;
+}
