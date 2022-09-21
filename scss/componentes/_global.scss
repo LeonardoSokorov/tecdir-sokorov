@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: $Color-principal;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 2.5em;
+    color: $Color-principal;
+}
+
+h2{
+    font-size: 1.8em;
+    color: $Color-principal;
+}
+h3{
+    font-size: 1.4em;
+    color: $Color-principal;
+
+}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+
+footer {
+    padding: 30px;
+}
+
+#contenedor {
+    max-width: 1400px;
+    margin: auto;
+}

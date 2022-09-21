@@ -1,0 +1,112 @@
+/* Index */
+
+.hero {
+    display: flex;
+    justify-content: end;
+    height: 80vh;
+    align-items: top;
+    text-align: right;
+    background-image: url(../img/img-17.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px 0;
+
+    h1 {
+        padding-top: 2em;
+        padding-right: 2em;
+    }
+}
+
+
+.promesa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 50%;
+    }
+
+    div{
+        padding: 20px 10px;
+    }
+
+    h2 {
+        padding: 30px 0;
+    }
+}
+
+
+.imagenBeneficios {
+    text-align: center;
+
+    img {
+        max-width: 100%;
+    }
+
+    h2{
+        padding: 20px 10px;
+        text-align: left;
+    }
+}
+
+
+.nuestrosProductos {
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+
+    img {
+        max-width: 50%;
+    }
+
+    h2{
+        padding: 30px 10px;
+    }
+
+    p{
+        padding: 0 10px;
+    }
+}
+
+.categorias { 
+    
+    ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    img{
+        width: 300px;
+        max-width: 100%;
+
+        &:hover {
+            filter: opacity(.5);
+        }
+    }
+}
+
+
+.clientes{
+    padding: 30px 0;
+
+    h2 {
+        padding: 30px 10px;
+    }
+
+    div{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    div div{
+        flex-direction: column;
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
