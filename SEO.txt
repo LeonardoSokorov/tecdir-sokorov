@@ -1,0 +1,13 @@
+Para el seo estuve trabajando:
+ 
+    <meta name="description" content="Volantes de competición para quienes desean emoción y adrenalina en su vida. La tecnología de la F1 y F-drift en tus manos."> 
+    
+    <meta name="keywords" content="Volante, Formula1, Formula drift, carreras, Coche, seguridad, tecnología, desarrollo, campeones actuales, velocidad, adrenalina, emoción, control, calidad">
+    
+    <title>Tecdir | Traé la pasión, el control y la seguridad de la Formula 1 a tus manos</title>
+    
+    h1: Traemos la Fórmula 1 a tus manos
+
+    Las imagenes tienen los actuales
+
+    Estuve redimensionando algunas imágenes y me quedan algunas más por redimensionar
