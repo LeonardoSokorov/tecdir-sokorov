@@ -1,3 +1,17 @@
+.heroDrift, .heroFormula1, .heroTrackDay {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  height: 80vh;
+  text-align: right;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 20px 0;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -49,10 +63,12 @@ footer {
 /* Index */
 .hero {
   display: flex;
-  justify-content: end;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  flex-direction: row;
   height: 80vh;
-  align-items: top;
-  text-align: right;
+  text-align: center;
   background-image: url(../img/img-17.jpg);
   background-position: center;
   background-size: cover;
@@ -60,8 +76,7 @@ footer {
   padding: 20px 0;
 }
 .hero h1 {
-  padding-top: 2em;
-  padding-right: 2em;
+  color: whitesmoke;
 }
 
 .promesa {
@@ -139,16 +154,7 @@ footer {
 
 /* Track day */
 .heroTrackDay {
-  display: flex;
-  justify-content: end;
-  height: 80vh;
-  align-items: center;
-  text-align: right;
   background-image: url(../img/img-2.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 20px 0;
 }
 
 .heroTrackDay h1 {
@@ -209,16 +215,7 @@ footer {
 
 /* Formula uno */
 .heroFormula1 {
-  display: flex;
-  justify-content: end;
-  height: 80vh;
-  align-items: flex-end;
-  text-align: right;
   background-image: url(../img/img-16.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 20px 0;
 }
 
 .beneficiosFormula1 {
@@ -275,16 +272,7 @@ footer {
 
 /* drift */
 .heroDrift {
-  display: flex;
-  justify-content: end;
-  height: 80vh;
-  align-items: flex-end;
-  text-align: right;
   background-image: url(../img/img-19.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: 20px 0;
 }
 
 .campeonatoDrift {

@@ -1,20 +1,17 @@
 /* Index */
 
 .hero {
-    display: flex;
-    justify-content: end;
-    height: 80vh;
-    align-items: top;
-    text-align: right;
-    background-image: url(../img/img-17.jpg);
+    @include p-display (flex, center, flex-start, nowrap, row);
+    height: map-get($map: $index, $key: altura-hero);
+    text-align: map-get($map: $index, $key: text-align-hero);
+    background-image: map-get($map: $index, $key: img-fondo);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px 0;
-
+    
     h1 {
-        padding-top: 2em;
-        padding-right: 2em;
+        color: $Color-secundario;
     }
 }
 

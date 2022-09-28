@@ -1,21 +1,17 @@
 @import "./base/variables";
+@import "./base/maps";
+@import "./base/mixin";
+@import "./base/extend";
 @import "./componentes/global";
 @import "./componentes/index";
 
 /* Track day */
 
 .heroTrackDay {
-    display: flex;
-    justify-content: end;
-    height: 80vh;
-    align-items: center;
-    text-align: right;
+    @extend %prop-hero;
     background-image: url(../img/img-2.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 20px 0;
 }
+
 .heroTrackDay h1 {
     padding: 0 30px;
 }
@@ -75,16 +71,8 @@
 /* Formula uno */
 
 .heroFormula1 {
-    display: flex;
-    justify-content: end;
-    height: 80vh;
-    align-items: flex-end;
-    text-align: right;
+    @extend %prop-hero;
     background-image: url(../img/img-16.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 20px 0;
 }
 
 .beneficiosFormula1 {
@@ -143,16 +131,8 @@ max-width: 100%;
 /* drift */
 
 .heroDrift {
-    display: flex;
-    justify-content: end;
-    height: 80vh;
-    align-items: flex-end;
-    text-align: right;
+    @extend %prop-hero;
     background-image: url(../img/img-19.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 20px 0;
 }
 
 .campeonatoDrift {

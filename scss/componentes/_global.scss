@@ -15,20 +15,20 @@ a {
 }
 
 h1{
-    font-size: 2.5em;
+    font-size: map-get($map: $global, $key: h1-size);
     color: $Color-principal;
 }
 
 h2{
-    font-size: 1.8em;
+    font-size: map-get($map: $global, $key: h2-size);
     color: $Color-principal;
 }
 h3{
-    font-size: 1.4em;
+    font-size: map-get($map: $global, $key: h3-size);
     color: $Color-principal;
 
 }
-p{font-size: 1.25em;}
+p{    font-size: map-get($map: $global, $key: p-size);}
 ul{list-style: none;}
 
 footer {
