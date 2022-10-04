@@ -1,0 +1,70 @@
+/* Nosotros */
+
+.nosotros {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+
+    img {
+        max-width: 50%;
+    }
+
+    h1 {
+        padding: 30px;
+    }
+
+    div {
+        max-width: 40%;
+    }
+
+    
+}
+
+.comienzos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+
+    img {
+        max-width: 35%;
+    }
+
+    div {
+        max-width: 60%;
+    }
+
+    h2 {
+        padding: 30px;
+    }
+}
+
+.tecnologia h2{
+    padding: 30px;
+    text-align: center;
+}
+
+.imgTecnologia {
+    text-align: center;
+    padding-bottom: 30px;
+
+    img {
+        max-width: 100%;
+    }
+}
+
+.tecnologiaFlex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+
+    p {
+        max-width: 40%;
+    }
+
+    img {
+        max-width: 35%;
+    }
+}

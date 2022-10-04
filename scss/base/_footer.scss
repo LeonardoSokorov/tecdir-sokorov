@@ -1,0 +1,18 @@
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    div {
+        max-width: 70%;
+
+        p {
+            color: $Color-transparencia;
+        }
+    }
+
+    img {
+        padding: 5px;
+    }
+
+}

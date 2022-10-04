@@ -31,12 +31,12 @@
 
     h2 {
         padding: 30px 0;
+        text-align: center;
     }
 }
 
 
 .imagenBeneficios {
-    text-align: center;
 
     img {
         max-width: 100%;
@@ -44,7 +44,7 @@
 
     h2{
         padding: 20px 10px;
-        text-align: left;
+        text-align: center;
     }
 }
 
@@ -60,6 +60,7 @@
 
     h2{
         padding: 30px 10px;
+        text-align: center;
     }
 
     p{
@@ -72,6 +73,10 @@
     ul{
         display: flex;
         justify-content: space-around;
+
+        h2{
+            text-align: center;
+        }
     }
 
     img{
@@ -90,20 +95,20 @@
 
     h2 {
         padding: 30px 10px;
+        text-align: center;
     }
 
     div{
         display: flex;
         justify-content: space-around;
         flex-wrap: wrap;
-    }
 
-    div div{
-        flex-direction: column;
+        div{
+            flex-direction: column;
+                        
+            img{
+                max-width: 15vw;
+            }
+        }
     }
-}
-
-footer {
-    display: flex;
-    justify-content: space-around;
 }

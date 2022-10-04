@@ -1,4 +1,4 @@
-.heroDrift, .heroFormula1, .heroTrackDay {
+.heroDrift, .heroTrackDay, .heroFormula1 {
   display: flex;
   justify-content: end;
   align-items: center;
@@ -10,6 +10,21 @@
   background-size: cover;
   background-repeat: no-repeat;
   margin: 20px 0;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer div {
+  max-width: 70%;
+}
+footer div p {
+  color: rgba(0, 0, 0, 0.3);
+}
+footer img {
+  padding: 5px;
 }
 
 * {
@@ -92,17 +107,15 @@ footer {
 }
 .promesa h2 {
   padding: 30px 0;
-}
-
-.imagenBeneficios {
   text-align: center;
 }
+
 .imagenBeneficios img {
   max-width: 100%;
 }
 .imagenBeneficios h2 {
   padding: 20px 10px;
-  text-align: left;
+  text-align: center;
 }
 
 .nuestrosProductos {
@@ -115,6 +128,7 @@ footer {
 }
 .nuestrosProductos h2 {
   padding: 30px 10px;
+  text-align: center;
 }
 .nuestrosProductos p {
   padding: 0 10px;
@@ -123,6 +137,9 @@ footer {
 .categorias ul {
   display: flex;
   justify-content: space-around;
+}
+.categorias ul h2 {
+  text-align: center;
 }
 .categorias img {
   width: 300px;
@@ -137,6 +154,7 @@ footer {
 }
 .clientes h2 {
   padding: 30px 10px;
+  text-align: center;
 }
 .clientes div {
   display: flex;
@@ -146,87 +164,23 @@ footer {
 .clientes div div {
   flex-direction: column;
 }
-
-footer {
-  display: flex;
-  justify-content: space-around;
-}
-
-/* Track day */
-.heroTrackDay {
-  background-image: url(../img/img-2.jpg);
-}
-
-.heroTrackDay h1 {
-  padding: 0 30px;
-}
-
-.beneficiosTrackDay {
-  text-align: center;
-}
-
-.beneficiosTrackDay img {
-  max-width: 80%;
-}
-
-.beneficiosTrackDay h2 {
-  text-align: left;
-  padding: 0px 10px 20px 10px;
-}
-
-.diferencialTrackDay {
-  display: flex;
-  padding: 30px 0;
-  align-items: center;
-}
-
-.diferencialTrackDay img {
-  max-width: 30%;
-  padding: 40px;
-}
-
-.diferencialTrackDay div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.diferencialTrackDay p {
-  padding: 30px 10px;
-}
-
-.tecnologiaTrackDay h2 {
-  padding: 30px 10px 0 40px;
-}
-
-.tecnologiaTrackDay div {
-  display: flex;
-  align-items: center;
-}
-
-.tecnologiaTrackDay img {
-  max-width: 60%;
-  margin: 40px;
-}
-
-.tecnologiaTrackDay p {
-  margin: 40px;
+.clientes div div img {
+  max-width: 15vw;
 }
 
 /* Formula uno */
 .heroFormula1 {
   background-image: url(../img/img-16.jpg);
+  max-height: 35vh;
 }
 
 .beneficiosFormula1 {
   text-align: center;
   padding: 30px;
 }
-
 .beneficiosFormula1 img {
   max-width: 100%;
 }
-
 .beneficiosFormula1 h2 {
   padding-bottom: 30px;
 }
@@ -236,16 +190,13 @@ footer {
   align-items: center;
   justify-content: center;
 }
-
 .recomendacionFormula1 img {
   max-width: 60%;
   padding: 30px;
 }
-
 .recomendacionFormula1 div {
   padding: 30px;
 }
-
 .recomendacionFormula1 h2 {
   padding: 30px;
 }
@@ -256,73 +207,87 @@ footer {
   padding: 30px;
   justify-content: center;
 }
-
 .premioFormula1 img {
   max-width: 100%;
 }
-
 .premioFormula1 div {
   max-width: 50%;
   padding: 30px;
 }
-
 .premioFormula1 h2 {
   padding: 30px;
 }
 
-/* drift */
-.heroDrift {
-  background-image: url(../img/img-19.jpg);
+/* Track day */
+.heroTrackDay {
+  background-image: url(../img/img-2.jpg);
+  max-height: 35vh;
 }
 
-.campeonatoDrift {
-  padding: 30px;
+.beneficiosTrackDay {
+  text-align: center;
+}
+.beneficiosTrackDay img {
+  max-width: 80%;
+}
+.beneficiosTrackDay h2 {
+  text-align: center;
+  padding: 10px;
 }
 
-.campeonatoDrift h2 {
-  padding-bottom: 30px;
-}
-
-.campeonatoDrift img {
-  max-width: 100%;
-}
-
-.recomendacionDrift {
+.diferencialTrackDay {
   display: flex;
-  justify-content: space-around;
+  padding: 30px 0;
   align-items: center;
-  padding: 30px;
 }
-
-.recomendacionDrift img {
+.diferencialTrackDay img {
   max-width: 30%;
+  padding: 40px;
 }
-
-.recomendacionDrift div {
+.diferencialTrackDay div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.diferencialTrackDay div h2 {
+  text-align: center;
   padding: 30px;
-  max-width: 60%;
+}
+.diferencialTrackDay .txt-dif {
+  font-weight: bold;
 }
 
-.recomendacionDrift h2 {
-  padding: 30px;
+.tecnologiaTrackDay h2 {
+  text-align: center;
+  padding: 10px;
 }
-
-.articuloDrift {
+.tecnologiaTrackDay div {
   display: flex;
   align-items: center;
-  padding: 30px;
+}
+.tecnologiaTrackDay div div {
+  flex-direction: column;
+}
+.tecnologiaTrackDay img {
+  max-width: 60%;
+  margin: 40px;
+}
+.tecnologiaTrackDay p {
+  margin: 40px;
 }
 
-.articuloDrift img {
-  max-width: 50%;
+.form-Lespera form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.articuloDrift div {
-  padding: 30px;
+.boton-propio {
+  background-color: whitesmoke;
+  color: black;
 }
-
-.articuloDrift h2 {
-  padding: 30px;
+.boton-propiohover {
+  filter: opacity(0.5);
 }
 
 /* Nosotros */
@@ -332,15 +297,12 @@ footer {
   align-items: center;
   padding: 30px;
 }
-
 .nosotros img {
   max-width: 50%;
 }
-
 .nosotros h1 {
   padding: 30px;
 }
-
 .nosotros div {
   max-width: 40%;
 }
@@ -351,15 +313,12 @@ footer {
   align-items: center;
   padding: 30px;
 }
-
 .comienzos img {
   max-width: 35%;
 }
-
 .comienzos div {
   max-width: 60%;
 }
-
 .comienzos h2 {
   padding: 30px;
 }
@@ -373,7 +332,6 @@ footer {
   text-align: center;
   padding-bottom: 30px;
 }
-
 .imgTecnologia img {
   max-width: 100%;
 }
@@ -384,18 +342,64 @@ footer {
   align-items: center;
   padding: 30px;
 }
-
 .tecnologiaFlex p {
   max-width: 40%;
 }
-
 .tecnologiaFlex img {
   max-width: 35%;
 }
 
-/* Media queries para hacer Responsive */
-/* Index */
+/* drift */
+.heroDrift {
+  background-image: url(../img/img-19.jpg);
+  max-height: 35vh;
+}
+
+.campeonatoDrift {
+  padding: 30px;
+}
+.campeonatoDrift h2 {
+  padding-bottom: 30px;
+  text-align: center;
+}
+.campeonatoDrift img {
+  max-width: 100%;
+}
+
+.recomendacionDrift {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+.recomendacionDrift img {
+  max-width: 30%;
+}
+.recomendacionDrift div {
+  padding: 30px;
+  max-width: 60%;
+}
+.recomendacionDrift h2 {
+  padding: 30px;
+}
+
+.articuloDrift {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+.articuloDrift img {
+  max-width: 50%;
+}
+.articuloDrift div {
+  padding: 30px;
+}
+.articuloDrift h2 {
+  padding: 30px;
+}
+
 @media only screen and (max-width: 576px) {
+  /* Index */
   .hero {
     justify-content: center;
     align-items: flex-end;
@@ -415,7 +419,7 @@ footer {
   .promesa div {
     padding: 0;
   }
-  .promesa h2, p {
+  .promesa h2, .promesa p {
     text-align: center;
   }
   .promesa img {
@@ -428,7 +432,7 @@ footer {
   .nuestrosProductos {
     flex-direction: column-reverse;
   }
-  .nuestrosProductos h2, p {
+  .nuestrosProductos h2, .nuestrosProductos p {
     text-align: center;
   }
   .nuestrosProductos img {
@@ -439,11 +443,8 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  .categorias ul h2 {
+  .categorias h2 {
     padding: 20px;
-  }
-  .clientes img {
-    max-width: 50%;
   }
   /* Trackday.html */
   .beneficiosTrackDay h2 {
@@ -452,11 +453,14 @@ footer {
   .diferencialTrackDay {
     flex-direction: column-reverse;
   }
+  .diferencialTrackDay div {
+    max-width: 80vw;
+  }
   .diferencialTrackDay h2 {
     text-align: center;
   }
   .diferencialTrackDay img {
-    max-width: 70%;
+    max-width: 70vw;
   }
   .tecnologiaTrackDay div {
     flex-direction: column-reverse;
@@ -465,7 +469,7 @@ footer {
     max-width: 90%;
     margin: 20px 0;
   }
-  .tecnologiaTrackDay h2, p {
+  .tecnologiaTrackDay h2, .tecnologiaTrackDay p {
     padding: 0;
     text-align: center;
   }
@@ -535,15 +539,15 @@ footer {
   .nosotros h1 {
     text-align: center;
   }
-  .comienzos img {
-    display: none;
-  }
   .comienzos {
     background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../img/img-5.jpg);
     height: 50vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+  }
+  .comienzos img {
+    display: none;
   }
   .comienzos div {
     max-width: 100%;

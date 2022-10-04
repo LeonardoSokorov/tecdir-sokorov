@@ -1,0 +1,244 @@
+
+@media only screen and (max-width: 576px) {
+    
+    /* Index */
+    .hero {
+        justify-content: center;
+        align-items: flex-end;
+        background-image: linear-gradient(
+            0deg,
+            $Color-transparencia,
+            $Color-transparencia
+        )
+        ,url(../img/img-17.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;       
+        
+        h1 {
+            text-align: center;
+            color: $Color-secundario;
+            padding: 0;
+        }
+    }
+    
+    .promesa {
+        flex-direction: column-reverse;
+
+        div {
+            padding: 0;
+        }
+
+        h2, p {
+            text-align: center;
+        }
+
+        img{
+            padding: 20px;
+            max-width: 100%;
+        }
+    
+    }
+
+    .imagenBeneficios {
+        display: none;
+    }
+
+    .nuestrosProductos {
+        flex-direction: column-reverse;
+
+        h2, p {
+            text-align: center;
+        }
+
+        img {
+            padding: 20px;
+            max-width: 100%;
+        }
+    }
+
+
+    .categorias {
+        ul{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h2 {
+            padding: 20px;
+        }
+    }
+        
+
+    /* Trackday.html */
+
+    .beneficiosTrackDay h2 {
+        text-align: center;
+    }
+
+    .diferencialTrackDay {
+        flex-direction: column-reverse;
+
+        div {
+            max-width: 80vw;
+        }
+        h2 {
+        text-align: center;
+        }
+
+        img {
+            max-width: 70vw;
+        }
+    }
+
+    .tecnologiaTrackDay {
+        div {
+            flex-direction: column-reverse;
+        }
+
+        img {
+            max-width: 90%;
+            margin: 20px 0;
+        }
+
+        h2, p {
+            padding: 0;
+            text-align: center;
+        }
+    
+    }
+    /* formulauno.html */
+
+    .heroFormula1 {
+        height: 40vh;
+    }
+
+    .recomendacionFormula1 {
+        flex-direction: column-reverse;
+        justify-content: center;
+
+        img {
+            max-width: 100%;
+            }
+    }
+
+    .premioFormula1 {
+        flex-direction: column;
+
+        div {
+            max-width: 100%;
+            padding-top: 0;
+        }
+
+        h2 {
+            padding-top: 0;
+        }
+    }
+
+    /* Drift.html */
+
+    .heroDrift {
+        height: 40vh;
+    }
+
+    .recomendacionDrift {
+        flex-direction: column-reverse;
+
+        img {
+            max-width: 60%;
+        }
+
+        div {
+            max-width: 100%;
+            padding-top: 0;
+        }
+
+        h2 {
+            padding-top: 0;
+            }
+    }
+
+    .articuloDrift {
+        flex-direction: column;
+        padding-top: 0;
+
+        div {
+            padding: 0;
+        }
+
+        h2 {
+            padding-top: 0;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            padding-top: 30px;
+        }
+    }
+    /* nosotros.html */
+
+    .nosotros {
+        flex-direction: column;
+    
+        img {
+            max-width: 100%;
+        }
+        
+        div {
+            max-width: 100%;
+        }
+
+        h1 {
+            text-align: center;
+        }
+    }
+
+    .comienzos {
+        background-image: linear-gradient(
+            0deg,
+            $Color-transparencia,
+            $Color-transparencia
+        )
+        ,url(../img/img-5.jpg);
+        height: 50vh;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;     
+        
+        img {
+            display: none;
+        }
+
+        div {
+            max-width: 100%;
+        }
+
+        h2 {
+            color: $Color-secundario;
+            text-align: center;
+        }
+
+        p {
+            color: $Color-secundario;
+        }
+    }
+
+    .imgTecnologia {
+        padding: 0;
+    }
+
+    .tecnologiaFlex {
+        flex-direction: column;
+        padding: 0;
+
+        img {    
+            max-width: 100%;
+        }
+
+        p {
+            max-width: 100%;
+            padding: 30px;
+        }
+    }
+}
