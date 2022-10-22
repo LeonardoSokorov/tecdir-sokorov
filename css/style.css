@@ -172,11 +172,19 @@ footer {
 .heroFormula1 {
   background-image: url(../img/img-16.jpg);
   max-height: 35vh;
+  align-items: flex-end;
+  justify-content: center;
+}
+.heroFormula1 h1 {
+  color: black;
+  filter: drop-shadow(2px 2px whitesmoke);
+  padding: 10px;
 }
 
 .beneficiosFormula1 {
   text-align: center;
   padding: 30px;
+  overflow: hidden;
 }
 .beneficiosFormula1 img {
   max-width: 100%;
@@ -189,6 +197,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 .recomendacionFormula1 img {
   max-width: 60%;
@@ -206,6 +215,7 @@ footer {
   flex-wrap: wrap;
   padding: 30px;
   justify-content: center;
+  overflow: hidden;
 }
 .premioFormula1 img {
   max-width: 100%;
@@ -222,6 +232,13 @@ footer {
 .heroTrackDay {
   background-image: url(../img/img-2.jpg);
   max-height: 35vh;
+  align-items: flex-end;
+  justify-content: center;
+}
+.heroTrackDay h1 {
+  color: black;
+  filter: drop-shadow(2px 2px whitesmoke);
+  padding: 10px;
 }
 
 .beneficiosTrackDay {
@@ -239,6 +256,7 @@ footer {
   display: flex;
   padding: 30px 0;
   align-items: center;
+  overflow: hidden;
 }
 .diferencialTrackDay img {
   max-width: 30%;
@@ -257,6 +275,9 @@ footer {
   font-weight: bold;
 }
 
+.tecnologiaTrackDay {
+  overflow: hidden;
+}
 .tecnologiaTrackDay h2 {
   text-align: center;
   padding: 10px;
@@ -276,18 +297,40 @@ footer {
   margin: 40px;
 }
 
-.form-Lespera form {
+.form-espera {
+  background-color: whitesmoke;
+  padding: 30px;
+}
+.form-espera form {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 20px;
 }
-
-.boton-propio {
+.form-espera .form-espera-propio {
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+.form-espera .form-espera-propio:focus {
+  border-color: #02b43d;
+  box-shadow: none;
+}
+.form-espera .check-propio {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, 0.3);
+}
+.form-espera .check-propio:checked {
+  background-color: #02b43d;
+  border: none;
+}
+.form-espera .boton-propio {
   background-color: whitesmoke;
   color: black;
+  border: solid 1px;
 }
-.boton-propiohover {
-  filter: opacity(0.5);
+.form-espera .boton-propio:hover {
+  border: solid 1px;
+  background-color: #02b43d;
 }
 
 /* Nosotros */
@@ -353,10 +396,20 @@ footer {
 .heroDrift {
   background-image: url(../img/img-19.jpg);
   max-height: 35vh;
+  align-items: flex-end;
+  justify-content: center;
+}
+.heroDrift h1 {
+  color: black;
+  filter: drop-shadow(2px 2px whitesmoke);
+  padding: 10px;
 }
 
 .campeonatoDrift {
   padding: 30px;
+}
+.campeonatoDrift h1 {
+  text-align: center;
 }
 .campeonatoDrift h2 {
   padding-bottom: 30px;
@@ -482,13 +535,13 @@ footer {
     justify-content: center;
   }
   .recomendacionFormula1 img {
-    max-width: 100%;
+    max-width: 90%;
   }
   .premioFormula1 {
     flex-direction: column;
   }
   .premioFormula1 div {
-    max-width: 100%;
+    max-width: 90%;
     padding-top: 0;
   }
   .premioFormula1 h2 {
@@ -572,6 +625,63 @@ footer {
   .tecnologiaFlex p {
     max-width: 100%;
     padding: 30px;
+  }
+}
+@media only screen and (min-width: 576px) and (max-width: 1024px) {
+  /* Index */
+  .nuestrosProductos div {
+    padding: 30px;
+  }
+  .categorias ul {
+    padding: 0;
+  }
+  .categorias li {
+    padding: 10px;
+  }
+  /* trackday */
+  .diferencialTrackDay img {
+    max-width: 50%;
+  }
+  .tecnologiaTrackDay div {
+    flex-direction: column;
+  }
+  .tecnologiaTrackDay div div {
+    padding: 0px 30px;
+  }
+  .tecnologiaTrackDay p {
+    margin: 0;
+  }
+  /* formula uno */
+  .premioFormula1 div {
+    max-width: 100%;
+  }
+  /* drift */
+  .articuloDrift {
+    flex-direction: column;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .articuloDrift h2, .articuloDrift div {
+    padding-top: 0;
+  }
+  .articuloDrift img {
+    max-width: 100%;
+  }
+  /* nosotros */
+  .nosotros {
+    flex-direction: column-reverse;
+  }
+  .nosotros h1, .nosotros p {
+    text-align: center;
+  }
+  .nosotros img, .nosotros div {
+    max-width: 100%;
+  }
+  .tecnologiaFlex {
+    flex-direction: column;
+  }
+  .tecnologiaFlex img, .tecnologiaFlex p {
+    max-width: 100%;
   }
 }
 /* Bootstrap */

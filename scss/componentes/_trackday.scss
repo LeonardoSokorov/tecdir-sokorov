@@ -4,6 +4,14 @@
     @extend %prop-hero;
     background-image: url(../img/img-2.jpg);
     max-height: 35vh; 
+    align-items: flex-end;
+    justify-content: center;
+
+    h1 {
+        color: $Color-principal;
+        filter: drop-shadow(2px 2px $Color-secundario);
+        padding: 10px;
+    }
 }
 
 
@@ -26,6 +34,7 @@
     display: flex;
     padding: 30px 0;
     align-items: center;
+    overflow: hidden;
 
     img {
         max-width: 30%;
@@ -50,6 +59,9 @@
 }
 
 .tecnologiaTrackDay {
+
+    overflow: hidden;
+
     h2{
         text-align: center;
         padding: 10px;
@@ -75,19 +87,47 @@
     }
 }
 
-.form-Lespera {
+.form-espera {
+    
+    background-color: $Color-secundario;
+    padding: 30px;
+
     form{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 20px;
     }
-}
 
-.boton-propio {
-    background-color: $Color-secundario;
-    color: $Color-principal;
-    
-        &hover {
-            filter: opacity(.5); 
+    .form-espera-propio {
+        background-color: white;
+        border-color: $Color-transparencia;
+
+        &:focus {
+            border-color: $Color-acento;
+            box-shadow: none;
         }
-}
+    }
+    .check-propio{
+    box-shadow: none;
+    border-color: $Color-transparencia;
+
+        &:checked{
+            background-color: $Color-acento;
+            border: none;
+         }
+        }
+
+    .boton-propio {
+            background-color: $Color-secundario;
+            color: $Color-principal;
+            border: solid 1px;
+            
+            &:hover {
+                border: solid 1px;
+                background-color: $Color-acento; 
+            }
+        }
+    }
+
+

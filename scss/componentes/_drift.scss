@@ -5,10 +5,22 @@
     @extend %prop-hero;
     background-image: url(../img/img-19.jpg);
     max-height: 35vh;
+    align-items: flex-end;
+    justify-content: center;
+
+    h1 {
+        color: $Color-principal;
+        filter: drop-shadow(2px 2px $Color-secundario);
+        padding: 10px;
+    }
 }
 
 .campeonatoDrift {
     padding: 30px;
+
+    h1 {
+        text-align: center;
+    }
 
     h2 {
         padding-bottom: 30px;

@@ -1,0 +1,84 @@
+@media only screen and (min-width: 576px) and (max-width: 1024px) {
+
+    /* Index */
+    .nuestrosProductos {
+        div {
+            padding: 30px;
+        }
+    }
+
+    .categorias {
+        ul {
+            padding: 0;
+        }
+
+        li {
+            padding: 10px;
+        }
+    }
+    
+    /* trackday */
+    .diferencialTrackDay {
+
+        img {
+            max-width: 50%;
+        }
+    }
+
+    .tecnologiaTrackDay {
+        div{
+            flex-direction: column;
+            div {
+                padding: 0px 30px;
+            }
+        }
+        p {
+            margin: 0;
+        }
+    }
+
+    /* formula uno */
+
+    .premioFormula1 {
+        div {
+            max-width: 100%;
+        }
+    }
+    
+    /* drift */
+
+    .articuloDrift{
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        h2, div, {
+            padding-top: 0;
+        }
+        img {
+            max-width: 100%;
+        }
+    }
+
+    /* nosotros */
+
+    .nosotros {
+        flex-direction: column-reverse;
+
+        h1, p {
+            text-align: center;
+        }
+
+        img, div {
+            max-width: 100%;
+        }
+    }
+
+    .tecnologiaFlex {
+        flex-direction: column;
+
+        img, p {
+            max-width: 100%;
+        }
+    }
+}
